@@ -1,6 +1,6 @@
 #include <SPI.h>
 #include <Pixy2.h>
-Pixy pixy;
+Pixy2 pixy;
 
 ////////////////////////////////////////////////////////
 
