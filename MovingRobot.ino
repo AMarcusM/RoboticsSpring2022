@@ -156,6 +156,8 @@ void loop() {
     wheels.stopBot(1);
     wheels.left(3);
     wheels.stopBot(1);
+    wheels.right(3);
+    wheels.stopBot(1);
     running = false;  // Breaks out repeating loop
   }
   
