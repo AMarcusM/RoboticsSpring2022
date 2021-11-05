@@ -44,10 +44,10 @@ class Move
 	   analogWrite(backRightEn, 115);
 	   
 	   // Turn on motors
-	   digitalWrite(frontLeftin1, HIGH);
-	   digitalWrite(frontLeftin2, LOW);
-	   digitalWrite(frontRightin3, LOW);
-	   digitalWrite(frontRightin4, HIGH);
+	   digitalWrite(frontLeftin1, LOW);
+	   digitalWrite(frontLeftin2, HIGH);
+	   digitalWrite(frontRightin3, HIGH);
+	   digitalWrite(frontRightin4, LOW);
 	   digitalWrite(backLeftin3, LOW);
 	   digitalWrite(backLeftin4, HIGH);
 	   digitalWrite(backRightin1, HIGH);
@@ -66,8 +66,8 @@ class Move
 	   analogWrite(backRightEn, 135);
 	   
 	   // Turn on motors
-	   digitalWrite(frontLeftin1, HIGH);
-	   digitalWrite(frontLeftin2, LOW);
+	   digitalWrite(frontLeftin1, LOW);
+	   digitalWrite(frontLeftin2, HIGH);
 	   digitalWrite(frontRightin3, LOW);
 	   digitalWrite(frontRightin4, LOW);
 	   digitalWrite(backLeftin3, LOW);
@@ -90,8 +90,8 @@ class Move
 	   // Turn on motors
 	   digitalWrite(frontLeftin1, LOW);
 	   digitalWrite(frontLeftin2, LOW);
-	   digitalWrite(frontRightin3, LOW);
-	   digitalWrite(frontRightin4, HIGH);
+	   digitalWrite(frontRightin3, HIGH);
+	   digitalWrite(frontRightin4, LOW);
 	   digitalWrite(backLeftin3, LOW);
 	   digitalWrite(backLeftin4, LOW);
 	   digitalWrite(backRightin1, HIGH);
