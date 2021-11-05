@@ -56,7 +56,7 @@ void loop() {
   // Variable to simplify speed
   int i = speedControl(5);
   if(running){
-      moveFoward(i);
+      moveFoward();
       delay(2000);
       stopMoving();
       turnLeft();
@@ -65,7 +65,7 @@ void loop() {
       turnRight();
       delay(2500);
       stopMoving();
-      moveFoward(i);
+      moveFoward();
       delay(1500);
       stopMoving();
       
