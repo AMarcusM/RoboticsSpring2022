@@ -42,7 +42,7 @@ void setup() {
 
 void loop() {
   float turn = pixyCheck();
-  /*
+  
   if (turn > -deadZone && turn < deadZone) {
     turn = 0;
   }
@@ -56,7 +56,7 @@ void loop() {
     moveRobot(70, 70);
   }
   delay(1);
-  */
+  
 }
 
 
