@@ -12,8 +12,8 @@
 //
 // end license header
 //
-
-#include <Pixy2.h>
+#define I2C
+#include <Pixy2I2C.h>
 #include <PIDLoop.h>
 #include <ZumoMotors.h>
 
