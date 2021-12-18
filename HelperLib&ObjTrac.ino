@@ -1,21 +1,21 @@
-#include <PIDLoop.h>
-#include <Pixy2CCC.h>
-//#include <Pixy2I2C>
+//#include <PIDLoop.h>
+//#include <Pixy2CCC.h>
+#include <Pixy2I2C>
 #include <Pixy2Line.h>
-#include <Pixy2SPI_SS.h>
+//#include <Pixy2SPI_SS.h>
 //#include <Pixy2UART.h>
 #include <Pixy2Video.h>
 #include <TPixy2.h>
-#include <ZumoBuzzer.h>
-#include <ZumoMotors.h>
+//#include <ZumoBuzzer.h>
+//#include <ZumoMotors.h>
 #include <Wire.h>
-//#include <Adafruit_PWMServoDriver.h>
+#include <Adafruit_PWMServoDriver.h>
 
 #include <SPI.h>
 #include <Pixy2.h>
 Pixy2 pixy;
 
-//Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
+Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 #define FREQUENCY = 50;
 
 ////////////////////////////////////////////////////////
