@@ -19,18 +19,13 @@ int signature, x, y, width, height;
 float cx, cy, area;
 
 void setup() {
-  pinMode {myPins[0], OUTPUT};
-  pinMode {myPins[1], OUTPUT};
-  pinMode {myPins[2], OUTPUT};
-  pinMode {myPins[3], OUTPUT};
-  pinMode {myPins[4], OUTPUT};
-  pinMode {myPins[5], OUTPUT};
-  Serial.begin(9600);
-  Serial.print("Starting...n");
-  pixy.init();
   for (int i = 0; i<6; i++) {
     pinMode(myPins[i], OUTPUT);
   }
+  Serial.begin(9600);
+  Serial.print("Starting...n");
+  pixy.init();
+
 }
 
 void loop() {
